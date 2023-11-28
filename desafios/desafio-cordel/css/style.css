@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+:root{
+    --fonte-01: 'Bebas Neue';
+    --fonte-02: 'Dancing Script';
+
+    --cor01: #9BF2EA;
+    --cor02: #41BFB3;
+    --cor03: #2A8C82;
+    --cor04: #275950;
+    --cor05: #260101;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.cabecalho{
+    height: 150px;
+    background-color: var(--cor02);
+
+}
+
+.navegacao{
+    background-color: #260101;
+    list-style: none;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+    box-shadow: 5px 1px 11px 4px rgba(0, 0, 0, 0.314)
+}
+
+.list-nav{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fonte-01);
+    transition-duration: 0.5s;
+}
+
+.list-nav:hover{
+    color: var(--cor02);
+    text-decoration: underline;
+    transition: 0.4s;
+    transform: translatey(3px);
+}
+
+.h1_cabecalho{
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    font-family: var(--fonte-01);
+    font-size: 3.4em;
+    font-weight: bold;
+
+    text-shadow: 3px 6px 8px #3a3f3e3c;
+}
+
+.p-cabecalho{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+
+}
+
+.ancora{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.ancora:hover{
+    text-decoration: underline;
+    color: var(--cor05);
+    transition: 0.4s;
+}
